@@ -1,0 +1,11 @@
+Package: ajtools
+Title: A Collection of Useful Functions
+Version: 0.0.0.9000
+Authors@R: 
+    person("Andrew", "Ross", , "random382@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: A bunch of functions that I have built and used over time.  These are collected here for ease of use in the future.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
