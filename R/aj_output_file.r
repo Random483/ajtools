@@ -44,9 +44,9 @@ aj_output_file <- function(
     n <- list.files(path = output_folder)
     minor_v <-
         sum(grepl(paste(
-            filename,
-            major_v,
-            ".",
+            "^", filename, "_v", major_v, # beginning of string
+            ".*", # wildcard middle
+            ".", extension, # end of srting
             sep = ""
         ), n))
     output <- paste(
