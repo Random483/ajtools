@@ -32,7 +32,7 @@ aj_input_file <- function(
     # create regex string for file name, including file name, extension and wildcard for version number
     fn <- paste(
         "^", filename, # start of filename
-        "(.+)", #wildcard for middle
+        ".*", #wildcard for middle
         "\\.", extension, "$", # end of filename
         sep = ""
         )
